@@ -21,10 +21,6 @@ venue:
 
 author:
  -
-    fullname: Brian Campbell
-    organization: Ping Identity
-    email: bcampbell@pingidentity.com
- -
     fullname: Michael B. Jones
     organization: Self-Issued Consulting
     email: michael_b_jones@hotmail.com
@@ -33,6 +29,10 @@ author:
     fullname: Chuck Mortimore
     organization: Disney
     email: charliemortimore@gmail.com
+ -
+    fullname: Brian Campbell
+    organization: Ping Identity
+    email: bcampbell@pingidentity.com
 
 normative:
   RFC7521:
@@ -42,6 +42,19 @@ normative:
   RFC6749:
 
 informative:
+  AUD-STEAL-SHOW:
+    title: "Client Assertions Gone Wrong: When the Audience Takes Over the Show"
+    author:
+      -
+        name: Pedram Hosseyni
+      -
+        name: Tim Würtele
+    date: 2024-03
+  RFC8725:
+  RFC7519:
+  RFC7515:
+  RFC8725:
+  RFC8414:
 
 
 --- abstract
@@ -74,6 +87,13 @@ This document has no IANA actions.
 --- back
 
 # Acknowledgments
-{:numbered="false"}
+{:unnumbered}
 
-TODO acknowledge.
+The authors would like to acknowledge the following people for their contributions to this document:
+John Bradley,
+Ralph Bragg,
+Joseph Heenan,
+Pedram Hosseyni,
+Aaron Parecki,
+Filip Skokan,
+and Tim Würtele.
