@@ -49,11 +49,11 @@ author:
     organization: Ping Identity
     email: bcampbell@pingidentity.com
     URI: https://self-issued.info/
--
+ -
     fullname: Michael B. Jones
     organization: Self-Issued Consulting
     email: michael_b_jones@hotmail.com
--
+ -
     fullname: Chuck Mortimore
     organization: Disney
     email: charliemortimore@gmail.com
