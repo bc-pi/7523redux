@@ -2,14 +2,18 @@
 
 
 
-WG Working Group                                              Y. N. Here
-Internet-Draft                                    Your Organization Here
-Intended status: Informational                             10 March 2025
-Expires: 11 September 2025
+Web Authorization Protocol                                   B. Campbell
+Internet-Draft                                             Ping Identity
+Intended status: Informational                               M. B. Jones
+Expires: 15 September 2025                        Self-Issued Consulting
+                                                            C. Mortimore
+                                                                  Disney
+                                                           14 March 2025
 
 
-                           TODO - Your title
-                  draft-todo-yourname-protocol-latest
+     Updates to JWT Profile for OAuth 2.0 Client Authentication and
+                          Authorization Grants
+                draft-campbell-oauth-rfc7523redux-latest
 
 Abstract
 
@@ -20,16 +24,17 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://example.com/LATEST.  Status information for this document may
-   be found at https://datatracker.ietf.org/doc/draft-todo-yourname-
-   protocol/.
+   https://example.com/TODOFOSURE.  Status information for this document
+   may be found at https://datatracker.ietf.org/doc/draft-campbell-
+   oauth-rfc7523redux/.
 
-   Discussion of this document takes place on the WG Working Group
-   mailing list (mailto:WG@example.com), which is archived at
-   https://example.com/WG.
+   Discussion of this document takes place on the Web Authorization
+   Protocol Working Group mailing list (mailto:oauth@ietf.org), which is
+   archived at https://mailarchive.ietf.org/arch/browse/oauth/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/oauth/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/USER/REPO.
+   https://github.com/bc-pi/7523redux.
 
 Status of This Memo
 
@@ -46,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 September 2025.
+   This Internet-Draft will expire on 15 September 2025.
 
 Copyright Notice
 
@@ -70,7 +75,7 @@ Table of Contents
    4.  IANA Considerations
    5.  Normative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -107,8 +112,18 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
-   Your Name Here
-   Your Organization Here
-   Email: your.email@example.com
+   Brian Campbell
+   Ping Identity
+   Email: bcampbell@pingidentity.com
+
+
+   Michael B. Jones
+   Self-Issued Consulting
+   Email: michael_b_jones@hotmail.com
+
+
+   Chuck Mortimore
+   Disney
+   Email: charliemortimore@gmail.com
