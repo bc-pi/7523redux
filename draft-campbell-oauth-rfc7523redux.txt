@@ -4,9 +4,9 @@
 
 Web Authorization Protocol                                   B. Campbell
 Internet-Draft                                             Ping Identity
-Intended status: Informational                               M. B. Jones
-Expires: 15 September 2025                        Self-Issued Consulting
-                                                            C. Mortimore
+Updates: 7523, 7521, 7522, 9126 (if approved)                M. B. Jones
+Intended status: Standards Track                  Self-Issued Consulting
+Expires: 15 September 2025                                  C. Mortimore
                                                                   Disney
                                                            14 March 2025
 
@@ -29,9 +29,9 @@ About This Document
    https://datatracker.ietf.org/doc/draft-campbell-oauth-rfc7523redux/.
 
    Discussion of this document takes place on the Web Authorization
-   Protocol mailing list (mailto:oauth@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/oauth/.  Subscribe at
-   https://www.ietf.org/mailman/listinfo/oauth/.
+   Protocol Working Group mailing list (mailto:oauth@ietf.org), which is
+   archived at https://mailarchive.ietf.org/arch/browse/oauth/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/oauth/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/bc-pi/7523redux.
@@ -104,9 +104,34 @@ Table of Contents
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/rfc/rfc2119>.
 
+   [RFC6749]  Hardt, D., Ed., "The OAuth 2.0 Authorization Framework",
+              RFC 6749, DOI 10.17487/RFC6749, October 2012,
+              <https://www.rfc-editor.org/rfc/rfc6749>.
+
+   [RFC7521]  Campbell, B., Mortimore, C., Jones, M., and Y. Goland,
+              "Assertion Framework for OAuth 2.0 Client Authentication
+              and Authorization Grants", RFC 7521, DOI 10.17487/RFC7521,
+              May 2015, <https://www.rfc-editor.org/rfc/rfc7521>.
+
+   [RFC7522]  Campbell, B., Mortimore, C., and M. Jones, "Security
+              Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0
+              Client Authentication and Authorization Grants", RFC 7522,
+              DOI 10.17487/RFC7522, May 2015,
+              <https://www.rfc-editor.org/rfc/rfc7522>.
+
+   [RFC7523]  Jones, M., Campbell, B., and C. Mortimore, "JSON Web Token
+              (JWT) Profile for OAuth 2.0 Client Authentication and
+              Authorization Grants", RFC 7523, DOI 10.17487/RFC7523, May
+              2015, <https://www.rfc-editor.org/rfc/rfc7523>.
+
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+   [RFC9126]  Lodderstedt, T., Campbell, B., Sakimura, N., Tonge, D.,
+              and F. Skokan, "OAuth 2.0 Pushed Authorization Requests",
+              RFC 9126, DOI 10.17487/RFC9126, September 2021,
+              <https://www.rfc-editor.org/rfc/rfc9126>.
 
 Acknowledgments
 
@@ -122,6 +147,7 @@ Authors' Addresses
    Michael B. Jones
    Self-Issued Consulting
    Email: michael_b_jones@hotmail.com
+   URI:   https://self-issued.info/
 
 
    Chuck Mortimore
