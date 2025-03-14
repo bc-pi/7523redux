@@ -19,7 +19,8 @@ subject to a Simplified BSD License) in Contributions.
 
 ## Working Group Information
 
-Discussion of this work occurs on the [Web Authorization Protocol mailing list](mailto:oauth@ietf.org)
+Discussion of this work occurs on the [Web Authorization Protocol
+mailing list](mailto:oauth@ietf.org)
 ([archive](https://mailarchive.ietf.org/arch/browse/oauth/),
 [subscribe](https://www.ietf.org/mailman/listinfo/oauth)).
 In addition to contributions in GitHub, you are encouraged to participate in
@@ -27,10 +28,3 @@ discussions there.
 
 **Note**: Some working groups adopt a policy whereby substantive discussion of
 technical issues needs to occur on the mailing list.
-
-You might also like to familiarize yourself with other
-<<<<<<< HEAD
-[Working Group documents](https://datatracker.ietf.org/wg/oauth/documents/).
-=======
-[ documents](https://datatracker.ietf.org/wg/oauth/documents/).
->>>>>>> refs/remotes/origin/main
