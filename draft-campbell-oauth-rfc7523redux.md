@@ -76,7 +76,9 @@ TODO Introduction
 
 # Security Considerations
 
-TODO Security
+This specification tightens assertion audience handling directives as a mitigation for
+potential attacks arising from the exploitation of ambiguities in authorization server
+identification allowed by {{RFC7523}}, {{RFC7522}}, {{RFC7521}}, and compounded by {{RFC9126}}.
 
 
 # IANA Considerations
