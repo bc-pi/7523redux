@@ -91,7 +91,7 @@ This document has no IANA actions.
 
 draft-campbell-oauth-rfc7523redux-00:
 
-* Initial draft blah something whatever
+* Initial draft proposing a simipler and less distrupitve alternative to draft-ietf-oauth-rfc7523bis
 
 # Acknowledgments
 {:unnumbered}
