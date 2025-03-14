@@ -9,7 +9,7 @@ number:
 date:
 consensus: true
 v: 3
-area: "Security"
+area: ""
 workgroup: "Web Authorization Protocol"
 keyword:
  - audience
@@ -17,11 +17,11 @@ keyword:
  - OAuth
 venue:
   group: "Web Authorization Protocol"
-  type: "Working Group"
+  type: ""
   mail: "oauth@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/oauth/"
-  github: bc-pi/7523redux
-  latest: https://example.com/TODOFOSURE
+  github: "bc-pi/7523redux"
+  latest: "https://bc-pi.github.io/7523redux/draft-campbell-oauth-rfc7523redux.html"
 
 author:
  -
