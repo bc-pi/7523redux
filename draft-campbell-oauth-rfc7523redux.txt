@@ -23,15 +23,15 @@ About This Document
 
    This note is to be removed before publishing as an RFC.
 
-   The latest revision of this draft can be found at
-   https://example.com/TODOFOSURE.  Status information for this document
-   may be found at https://datatracker.ietf.org/doc/draft-campbell-
-   oauth-rfc7523redux/.
+   The latest revision of this draft can be found at https://bc-
+   pi.github.io/7523redux/draft-campbell-oauth-rfc7523redux.html.
+   Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-campbell-oauth-rfc7523redux/.
 
    Discussion of this document takes place on the Web Authorization
-   Protocol Working Group mailing list (mailto:oauth@ietf.org), which is
-   archived at https://mailarchive.ietf.org/arch/browse/oauth/.
-   Subscribe at https://www.ietf.org/mailman/listinfo/oauth/.
+   Protocol mailing list (mailto:oauth@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/oauth/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/oauth/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/bc-pi/7523redux.
