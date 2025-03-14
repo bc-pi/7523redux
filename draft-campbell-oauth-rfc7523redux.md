@@ -23,7 +23,7 @@ title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authoriza
 abbrev: "JWT Client Auth Redux"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-campbell-oauth-rfc7523redux-latest
 submissiontype: IETF
 number:
 date:
