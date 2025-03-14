@@ -1,23 +1,19 @@
 ---
 title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants"
 abbrev: "JWT Client Auth Redux"
-category: info
+category: std
+updates: 7523, 7521, 7522, 9126
 
 docname: draft-campbell-oauth-rfc7523redux-latest
 submissiontype: IETF
-number:
-date:
 consensus: true
 v: 3
-area: ""
+area: Security
 workgroup: "Web Authorization Protocol"
-keyword:
- - audience
- - JWT
- - OAuth
+keyword: [OAuth, audience, JWT, client authentication]
 venue:
   group: "Web Authorization Protocol"
-  type: ""
+  type: "Working Group"
   mail: "oauth@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/oauth/"
   github: "bc-pi/7523redux"
@@ -28,17 +24,22 @@ author:
     fullname: Brian Campbell
     organization: Ping Identity
     email: bcampbell@pingidentity.com
-    URI: https://self-issued.info/
  -
     fullname: Michael B. Jones
     organization: Self-Issued Consulting
     email: michael_b_jones@hotmail.com
+    uri: https://self-issued.info/
  -
     fullname: Chuck Mortimore
     organization: Disney
     email: charliemortimore@gmail.com
 
 normative:
+  RFC7521:
+  RFC7522:
+  RFC7523:
+  RFC9126:
+  RFC6749:
 
 informative:
 
