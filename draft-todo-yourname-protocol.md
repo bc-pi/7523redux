@@ -19,35 +19,44 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants
+abbrev: "JWT Client Auth Redux"
 category: info
 
 docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
+submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Security"
+workgroup: "Web Authorization Protocol"
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - audience
+ - JWT
+ - OAuth
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "Web Authorization Protocol"
+  type: "Working Group"
+  mail: "oauth@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/oauth/"
+  github: bc-pi/7523redux
+  latest: https://example.com/TODOFOSURE
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Brian Campbell
+    organization: Ping Identity
+    email: bcampbell@pingidentity.com
+    URI: https://self-issued.info/
+-
+    fullname: Michael B. Jones
+    organization: Self-Issued Consulting
+    email: michael_b_jones@hotmail.com
+-
+    fullname: Chuck Mortimore
+    organization: Disney
+    email: charliemortimore@gmail.com
 
 normative:
 
