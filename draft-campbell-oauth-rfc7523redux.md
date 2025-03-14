@@ -1,8 +1,8 @@
 ---
-title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants"
-abbrev: "JWT Client Auth Redux"
+title: "Updates to OAuth 2.0 Client Asseertion Authentication and Assertion Based Authorization Grants"
+abbrev: "Client Assertion Auth Redux"
 category: std
-updates: 7523, 7521, 7522, 9126
+updates: 7523, 7522, 7521, 9126
 
 docname: draft-campbell-oauth-rfc7523redux-latest
 submissiontype: IETF
