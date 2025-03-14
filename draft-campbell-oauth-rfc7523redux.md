@@ -19,7 +19,7 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants
+title: "Updates to JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants"
 abbrev: "JWT Client Auth Redux"
 category: info
 
