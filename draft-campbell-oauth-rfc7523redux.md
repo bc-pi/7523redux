@@ -86,6 +86,13 @@ This document has no IANA actions.
 
 --- back
 
+# Document History
+{:unnumbered}
+
+draft-campbell-oauth-rfc7523redux-00:
+
+* Initial draft blah something whatever
+
 # Acknowledgments
 {:unnumbered}
 
