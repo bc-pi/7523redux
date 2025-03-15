@@ -42,7 +42,8 @@ normative:
   RFC6749:
 
 informative:
-  AUD-STEAL-SHOW:
+  AUDIENCE-TAKES-SHOW:
+    target: https://talks.secworkshop.events/osw2025/talk/R8D9BS/
     title: "Client Assertions Gone Wrong: When the Audience Takes Over the Show"
     author:
       -
@@ -50,11 +51,23 @@ informative:
       -
         name: Tim Würtele
     date: 2024-03
+  IANA.MediaTypes:
+    target: https://www.iana.org/assignments/media-types/
+    title: "Media Types"
+    author:
+        organization: IANA
+  IANA.OAuth.Parameters:
+    target: https://www.iana.org/assignments/oauth-parameters/
+    title: "OAuth Parameters"
+    author:
+        organization: IANA
+  RFC6838:
   RFC8725:
   RFC7519:
   RFC7515:
   RFC8725:
   RFC8414:
+  I-D.ietf-oauth-rfc7523bis:
 
 
 --- abstract
@@ -83,17 +96,33 @@ identification allowed by {{RFC7523}}, {{RFC7522}}, {{RFC7521}}, and compounded 
 
 # IANA Considerations
 
-This document has no IANA actions.
+## OAuth URI Registry Updates
 
+IANA is requested to update the "OAuth URI" registry {{IANA.OAuth.Parameters}} for the following entriest to add \[\[this specfication]]
+as an addtional refernce:
+
+* `urn:ietf:params:oauth:grant-type:jwt-bearer`
+* `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`
+* `urn:ietf:params:oauth:grant-type:saml2-bearer`
+* `urn:ietf:params:oauth:client-assertion-type:saml2-bearer`
+
+## Media Type Registration
+
+Registration is requested for the following media type in the IANA
+"Media Types" registry {{IANA.MediaTypes}} in the manner described in {{RFC6838}}.
+
+TODO
 
 --- back
 
 # Document History
 {:unnumbered}
 
+> \[\[ to be removed by the RFC Editor before publication as an RFC ]]
+
 draft-campbell-oauth-rfc7523redux-00:
 
-* Initial draft proposing a simipler and less distrupitve alternative to draft-ietf-oauth-rfc7523bis
+* Initial draft proposing a simipler and less distrupitve alternative to {{I-D.ietf-oauth-rfc7523bis}}
 
 # Acknowledgments
 {:unnumbered}
