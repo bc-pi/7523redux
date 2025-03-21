@@ -6,9 +6,9 @@ Web Authorization Protocol                                   M. B. Jones
 Internet-Draft                                    Self-Issued Consulting
 Updates: 7523, 7522, 7521, 9126 (if approved)               C. Mortimore
 Intended status: Standards Track                                  Disney
-Expires: 16 September 2025                                   B. Campbell
+Expires: 22 September 2025                                   B. Campbell
                                                            Ping Identity
-                                                           15 March 2025
+                                                           21 March 2025
 
 
   Updates to OAuth 2.0 Client Asseertion Authentication and Assertion
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 16 September 2025.
+   This Internet-Draft will expire on 22 September 2025.
 
 Copyright Notice
 
@@ -71,20 +71,26 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-     4.1.  OAuth URI Registry Updates
-     4.2.  Media Type Registration
-   5.  References
-     5.1.  Normative References
-     5.2.  Informative References
+   3.  The Updates
+     3.1.  JWT Client Authentication
+     3.2.  SAML Client Authentication
+     3.3.  Assertion Based Authorization Grants
+   4.  Security Considerations
+   5.  IANA Considerations
+     5.1.  OAuth URI Registry Updates
+     5.2.  Media Type Registration
+   6.  References
+     6.1.  Normative References
+     6.2.  Informative References
    Document History
    Acknowledgments
    Authors' Addresses
 
 1.  Introduction
 
-   TODO Introduction
+   TODO Introduction that mentions [AUDIENCE-TAKES-SHOW] and mayby a bit
+   of context/history and motivation for this doc that will update/patch
+   [RFC7523], [RFC7522], and [RFC9126].
 
 2.  Conventions and Definitions
 
@@ -94,16 +100,37 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+3.  The Updates
+
+3.1.  JWT Client Authentication
+
+   aud must solely contain the authorization server's issuer identifier.
+
+   Explicit typing of the Client Authentication JWT as a good thing to
+   do in general but also allowing for observerability and controle
+   during the transition period.
+
+3.2.  SAML Client Authentication
+
+   This hasn't been used in practice and this document will say not to
+   ever use it going forward.
+
+3.3.  Assertion Based Authorization Grants
+
+   Advise client to ensure that the audience of the assertion makes
+   sense with respect to where it’s being sent, which might Token
+   endpoint URL, Issuer Identifier, SAML Entity ID.
+
+4.  Security Considerations
 
    This specification tightens assertion audience handling directives as
    a mitigation for potential attacks arising from the exploitation of
    ambiguities in authorization server identification allowed by
    [RFC7523], [RFC7522], [RFC7521], and compounded by [RFC9126].
 
-4.  IANA Considerations
+5.  IANA Considerations
 
-4.1.  OAuth URI Registry Updates
+5.1.  OAuth URI Registry Updates
 
    IANA is requested to update the "OAuth URI" registry
    [IANA.OAuth.Parameters] for the following entriest to add [[this
@@ -117,17 +144,17 @@ Table of Contents
 
    *  urn:ietf:params:oauth:client-assertion-type:saml2-bearer
 
-4.2.  Media Type Registration
+5.2.  Media Type Registration
 
    Registration is requested for the following media type in the IANA
    "Media Types" registry [IANA.MediaTypes] in the manner described in
    [RFC6838].
 
-   TODO
+   TODO for application/client-authentication+jwt
 
-5.  References
+6.  References
 
-5.1.  Normative References
+6.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -163,7 +190,7 @@ Table of Contents
               RFC 9126, DOI 10.17487/RFC9126, September 2021,
               <https://www.rfc-editor.org/rfc/rfc9126>.
 
-5.2.  Informative References
+6.2.  Informative References
 
    [AUDIENCE-TAKES-SHOW]
               Hosseyni, P. and T. Würtele, "Client Assertions Gone
