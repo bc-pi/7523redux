@@ -79,12 +79,30 @@ TODO Abstract
 
 # Introduction
 
-TODO Introduction
-
+TODO Introduction that mentions {{AUDIENCE-TAKES-SHOW}} and mayby a bit of context/history and
+motivation for this doc that will update/patch {{RFC7523}}, {{RFC7522}}, and {{RFC9126}}.
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
+
+# The Updates
+
+## JWT Client Authentication
+
+`aud` must solely contain the authorization server's issuer identifier.
+
+Explicit typing of the Client Authentication JWT as a good thing to do in general but also allowing for
+observerability and controle during the transition period.
+
+## SAML Client Authentication
+
+This hasn't been used in practice and this document will say not to ever use it going forward.
+
+## Assertion Based Authorization Grants
+
+Advise client to ensure that the audience of the assertion makes sense with respect to where it’s being sent,
+which might Token endpoint URL, Issuer Identifier, SAML Entity ID.
 
 
 # Security Considerations
@@ -111,7 +129,7 @@ as an addtional refernce:
 Registration is requested for the following media type in the IANA
 "Media Types" registry {{IANA.MediaTypes}} in the manner described in {{RFC6838}}.
 
-TODO
+TODO for `application/client-authentication+jwt`
 
 --- back
 
